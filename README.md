@@ -18,6 +18,8 @@ Endpoint, hex, device, and transfer filters for a focused USB case.
 
 ## Download packages
 
+- [bus-scope-0.1.6-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-windows-x64-setup.exe)
+
 - [bus-scope-0.1.6-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.AppImage)
 - [bus-scope-0.1.6-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.deb)
 - [bus-scope-0.1.6-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.rpm)
