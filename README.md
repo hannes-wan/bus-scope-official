@@ -4,7 +4,7 @@
 
 Inspect live USB traffic, decode device evidence, and retain structured .bscope sessions for firmware and hardware debugging.
 
-[Website](https://hannes-software.com/bus-scope/) · [Download](https://hannes-software.com/bus-scope/download/) · [Help](https://hannes-software.com/bus-scope/help/) · [Latest release](https://github.com/hannes-wan/bus-scope-official/releases/tag/v0.1.6)
+[Website](https://hannes-software.com/bus-scope/) · [Download](https://hannes-software.com/bus-scope/download/) · [Help](https://hannes-software.com/bus-scope/help/) · [Latest release](https://github.com/hannes-wan/bus-scope-official/releases/tag/v0.1.7)
 
 ## The problem it solves
 
@@ -54,24 +54,24 @@ Built for firmware teams, hardware labs, and device vendors who need a repeatabl
 
 ### Packet detail evidence
 
-![Packet detail evidence](https://hannes-software.com/assets/bus-scope/screenshots/packet-detail-68e9d59d62.webp)
+![Packet detail evidence](https://hannes-software.com/assets/bus-scope/screenshots/packet-detail-517beeb93a.webp)
 
 Setup fields, payload bytes, descriptors, and class decoder output.
 
 ### Filter investigation
 
-![Filter investigation](https://hannes-software.com/assets/bus-scope/screenshots/filter-investigation-d4c5246de6.webp)
+![Filter investigation](https://hannes-software.com/assets/bus-scope/screenshots/filter-investigation-517beeb93a.webp)
 
 Endpoint, hex, device, and transfer filters for a focused USB case.
 
 ## Download packages
 
-Latest GitHub release: **v0.1.6**
+Latest GitHub release: **v0.1.7**
 
-- [bus-scope-0.1.6-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-windows-x64-setup.exe)
-- [bus-scope-0.1.6-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.AppImage)
-- [bus-scope-0.1.6-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.deb)
-- [bus-scope-0.1.6-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.6/bus-scope-0.1.6-linux-x64.rpm)
+- [bus-scope-0.1.7-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-windows-x64-setup.exe)
+- [bus-scope-0.1.7-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.AppImage)
+- [bus-scope-0.1.7-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.deb)
+- [bus-scope-0.1.7-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.rpm)
 
 Prefer the product page if you want the full download notes, licensing details, and help articles:
 
