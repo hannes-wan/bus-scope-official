@@ -5,11 +5,11 @@
 
 > Trace a USB failure from capture readiness through transfers, endpoints, descriptors, class evidence, and raw bytes.
 
-Free Community Edition USB packet analyzer and USB protocol analyzer for USBPcap/usbmon evidence, descriptors, endpoints, HID and CDC.
+A free USB analyzer: Community Edition includes USBPcap/usbmon capture, packet and protocol evidence, descriptors, endpoints, HID, CDC, Mass Storage, and UVC.
 
 Inspect live USB traffic, decode device evidence, and retain structured .bscope sessions for firmware and hardware debugging.
 
-**Bus Scope Community Edition is free to download and use.** USB capture review for local labs, support desks, and field debugging sessions.
+**Bus Scope Community Edition is free to download and use.** Complete local USB capture and diagnosis for labs, support desks, and field debugging sessions.
 
 [Download Community Edition](https://hannes-software.com/bus-scope/download/) · [Product guide](https://hannes-software.com/bus-scope/) · [Help](https://hannes-software.com/bus-scope/help/) · [Report a bug](https://github.com/hannes-wan/bus-scope-official/issues/new?template=bug_report.yml)
 
@@ -56,7 +56,7 @@ Inspect setup fields, raw bytes, descriptor evidence, class decoder output, stat
 
 - Setup packets, raw bytes, descriptor evidence, class decoder output, status values, and diagnostic references are tied to the selected transfer.
 - Enumeration, endpoint stalls, vendor requests, HID feature reports, CDC line coding, and mass storage command evidence can be reviewed from one USB-first surface.
-- Descriptor, HID, CDC, Mass Storage, and UVC interpretation are Professional features, so the optional licensed workflow adds depth where firmware teams actually spend time.
+- Descriptor, HID, CDC, Mass Storage, and UVC interpretation are included in the free Community edition alongside capture and packet inspection.
 
 ### Sessions and reports survive handoff
 
@@ -64,18 +64,19 @@ Inspect setup fields, raw bytes, descriptor evidence, class decoder output, stat
 - Community can export JSON or text; Professional unlocks HTML and PDF report export for customer cases, lab notes, and support handoffs.
 - Trigger stop workflows and larger capture query windows support longer investigations without turning the page into a screenshot archive.
 
-### Bus Scope: free Community edition and optional advanced workflows
+### Full diagnostics in the free Community edition
 
 - Bus Scope stays USB-only by design, so the workflow starts at device, endpoint, transfer, and payload evidence instead of broad protocol menus.
 - Local desktop capture means sensitive firmware, HID, control transfer, and mass storage traces stay in your lab workflow.
-- The optional Professional edition adds advanced workflows; see the product page for current access details.
+- Professional adds only durable .bscope session save/open and HTML/PDF reports; capture, decoding, triggers, large-query inspection, and JSON/text export stay free.
 
 ## Community Edition is genuinely useful
 
-- USB device explorer
-- Adapter capability diagnostics
-- Live timeline preview
-- Packet detail inspection
+- Native usbmon and USBPcap live capture
+- USB device explorer and adapter diagnostics
+- Descriptor, HID, CDC, Mass Storage, and UVC interpretation
+- Trigger stop workflows
+- Large capture queries and packet detail inspection
 - JSON and text export
 
 Optional licensed workflows are available for people who need the expanded feature set. Licensing details belong on the website; the Community Edition remains the free way to evaluate and use the core product.
@@ -108,19 +109,12 @@ Bus Scope is a desktop workflow. Your working files stay on the machine unless y
 
 ## Frequently asked questions
 
-> **Community scope:** Community Edition includes device exploration, adapter diagnostics, timeline preview, packet detail, and JSON or text export; native live capture and deeper class interpretation are optional licensed workflows.
+> **Community scope:** Community Edition includes native live capture, descriptor and HID/CDC/Mass Storage/UVC interpretation, trigger stops, packet detail, and JSON or text export; .bscope save/open and HTML/PDF reports are optional licensed workflows.
 
 <details>
 <summary><strong>Is Bus Scope a hardware USB analyzer?</strong></summary>
 
 No. Bus Scope is a software-only USB diagnostics desktop workbench. It captures USB traffic using the built-in Linux usbmon and Windows USBPcap interfaces — no external hardware analyzer required.
-
-</details>
-
-<details>
-<summary><strong>What's the difference between Bus Scope and HHD USB Monitor?</strong></summary>
-
-The Community edition is free, while the competing tool is paid commercial software; consult the vendor for current terms. Workflow details: live capture, control transfer decoding, descriptor evidence, and .bscope sessions for firmware teams. See the full comparison on our blog.
 
 </details>
 
@@ -149,6 +143,13 @@ Use Wireshark and USBPcap when you need a free general packet analyzer and alrea
 <summary><strong>Is USBPcap by itself enough for Windows USB debugging?</strong></summary>
 
 USBPcap is enough to collect host-visible USB traffic, but it does not provide the full diagnostics workflow. Bus Scope adds product-level capture readiness, USB-first filtering, descriptor interpretation, endpoint context, .bscope sessions, and report export around that capture path.
+
+</details>
+
+<details>
+<summary><strong>When do I need a hardware USB analyzer instead of Bus Scope?</strong></summary>
+
+Use hardware when the question is physical-layer proof: electrical behavior, signal integrity, link timing, compliance evidence, or a failure that never reaches the host capture layer. Use Bus Scope first for enumeration, descriptor, endpoint, control transfer, HID, CDC, mass storage, and UVC cases visible to the host.
 
 </details>
 

@@ -7,8 +7,8 @@
 - Linux usbmon and Windows USBPcap readiness checks connect adapter and device selection to explicit unavailable-state diagnostics.
 - The dense transfer timeline can be narrowed by endpoint, direction, transfer type, device, text, or hexadecimal evidence.
 - Selected-transfer detail joins setup fields, raw payload, status, descriptors, class evidence, and diagnostic references.
-- Community Edition includes device exploration, adapter diagnostics, timeline preview, packet detail, and JSON or text export; native live capture and HID-class interpretation stay outside the free capability promise.
-- .bscope case state, trigger-driven capture stops, and HTML/PDF handoff are documented as broader optional workflows rather than being folded into Community Edition claims.
+- Community Edition includes native Linux usbmon and Windows USBPcap capture, descriptor and class interpretation, trigger-driven capture stops, timeline and packet detail, and JSON or text export.
+- .bscope case save/open and HTML/PDF report handoff are the optional licensed workflows; the live capture and diagnostic evidence path remains free.
 
 ## Choose the right package
 
