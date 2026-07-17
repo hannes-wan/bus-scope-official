@@ -1,21 +1,19 @@
-# Bus Scope 0.1.7
+# Bus Scope 0.1.8
 
 **Bus Scope Community Edition is free to download and use.** This release keeps the core desktop workflow available without a subscription requirement.
 
 ## What stands out in this release
 
-- Linux usbmon and Windows USBPcap readiness checks connect adapter and device selection to explicit unavailable-state diagnostics.
-- The dense transfer timeline can be narrowed by endpoint, direction, transfer type, device, text, or hexadecimal evidence.
-- Selected-transfer detail joins setup fields, raw payload, status, descriptors, class evidence, and diagnostic references.
-- Community Edition includes native Linux usbmon and Windows USBPcap capture, descriptor and class interpretation, trigger-driven capture stops, timeline and packet detail, and JSON or text export.
-- .bscope case save/open and HTML/PDF report handoff are the optional licensed workflows; the live capture and diagnostic evidence path remains free.
+- The borderless desktop workbench is now natively resizable from every edge and corner, down to a sensible minimum window size.
+- Aligned the Community Edition feature contract with the implemented USB workflow: capture, descriptors, HID, CDC, mass-storage, video, triggers, and large-capture support are represented consistently.
+- Corrected licensing copy so optional capabilities describe the implemented .bscope save/open and reporting workflows without overstating replay or offline behavior.
 
 ## Choose the right package
 
-- **Linux x64 (APPIMAGE):** `bus-scope-0.1.7-linux-x64.AppImage` — Portable Linux desktop package
-- **Linux x64 (DEB):** `bus-scope-0.1.7-linux-x64.deb` — Debian, Ubuntu, Mint, and compatible systems
-- **Linux x64 (RPM):** `bus-scope-0.1.7-linux-x64.rpm` — Fedora, RHEL, openSUSE, and compatible systems
-- **Windows x64:** `bus-scope-0.1.7-windows-x64-setup.exe` — Guided Windows installer
+- **Linux x64 (APPIMAGE):** `bus-scope-0.1.8-linux-x64.AppImage` — Portable Linux desktop package
+- **Linux x64 (DEB):** `bus-scope-0.1.8-linux-x64.deb` — Debian, Ubuntu, Mint, and compatible systems
+- **Linux x64 (RPM):** `bus-scope-0.1.8-linux-x64.rpm` — Fedora, RHEL, openSUSE, and compatible systems
+- **Windows x64:** `bus-scope-0.1.8-windows-x64-setup.exe` — Guided Windows installer
 
 ## Before you install
 

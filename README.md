@@ -13,16 +13,22 @@ Inspect live USB traffic, decode device evidence, and retain structured .bscope 
 
 [Download Community Edition](https://hannes-software.com/bus-scope/download/) · [Product guide](https://hannes-software.com/bus-scope/) · [Help](https://hannes-software.com/bus-scope/help/) · [Report a bug](https://github.com/hannes-wan/bus-scope-official/issues/new?template=bug_report.yml)
 
-## Download Bus Scope 0.1.7
+## Download Bus Scope 0.1.8
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [bus-scope-0.1.7-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [bus-scope-0.1.7-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [bus-scope-0.1.7-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
-| Windows x64 | [bus-scope-0.1.7-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.7/bus-scope-0.1.7-windows-x64-setup.exe) | Guided Windows installer |
+| Linux x64 (APPIMAGE) | [bus-scope-0.1.8-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [bus-scope-0.1.8-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [bus-scope-0.1.8-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Windows x64 | [bus-scope-0.1.8-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/bus-scope/download/).
+
+## System requirements
+
+- **Windows:** Windows 10 or Windows 11 on x64.
+- **Linux:** a mainstream x64 distribution with glibc 2.35 or newer, such as Ubuntu 22.04+, Debian 12+, Fedora, or openSUSE (AppImage, DEB, and RPM packages).
+- **Disk space:** a few hundred megabytes free for the application and its bundled resources.
 
 ## Why Bus Scope exists
 
@@ -56,15 +62,15 @@ Inspect setup fields, raw bytes, descriptor evidence, class decoder output, stat
 
 - Setup packets, raw bytes, descriptor evidence, class decoder output, status values, and diagnostic references are tied to the selected transfer.
 - Enumeration, endpoint stalls, vendor requests, HID feature reports, CDC line coding, and mass storage command evidence can be reviewed from one USB-first surface.
-- Descriptor, HID, CDC, Mass Storage, and UVC interpretation are included in the free Community edition alongside capture and packet inspection.
+- Descriptor, HID, CDC, Mass Storage, and UVC interpretation are included in the free Community Edition alongside capture and packet inspection.
 
 ### Sessions and reports survive handoff
 
 - .bscope save/open keeps packets, payload retention, statistics, diagnostics, descriptor evidence, decoded events, and timeline state together.
-- Community can export JSON or text; Professional unlocks HTML and PDF report export for customer cases, lab notes, and support handoffs.
+- Community can export JSON or text; Optional licensing unlocks HTML and PDF report export for customer cases, lab notes, and support handoffs.
 - Trigger stop workflows and larger capture query windows support longer investigations without turning the page into a screenshot archive.
 
-### Full diagnostics in the free Community edition
+### Full diagnostics in the free Community Edition
 
 - Bus Scope stays USB-only by design, so the workflow starts at device, endpoint, transfer, and payload evidence instead of broad protocol menus.
 - Local desktop capture means sensitive firmware, HID, control transfer, and mass storage traces stay in your lab workflow.
