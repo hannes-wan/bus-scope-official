@@ -13,14 +13,14 @@ Inspect live USB traffic, decode device evidence, and retain structured .bscope 
 
 [Download Community Edition](https://hannes-software.com/bus-scope/download/) · [Product guide](https://hannes-software.com/bus-scope/) · [Help](https://hannes-software.com/bus-scope/help/) · [Report a bug](https://github.com/hannes-wan/bus-scope-official/issues/new?template=bug_report.yml)
 
-## Download Bus Scope 0.1.8
+## Download Bus Scope 0.1.10
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [bus-scope-0.1.8-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [bus-scope-0.1.8-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [bus-scope-0.1.8-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
-| Windows x64 | [bus-scope-0.1.8-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.8/bus-scope-0.1.8-windows-x64-setup.exe) | Guided Windows installer |
+| Linux x64 (APPIMAGE) | [bus-scope-0.1.10-linux-x64.AppImage](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.10/bus-scope-0.1.10-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [bus-scope-0.1.10-linux-x64.deb](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.10/bus-scope-0.1.10-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [bus-scope-0.1.10-linux-x64.rpm](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.10/bus-scope-0.1.10-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Windows x64 | [bus-scope-0.1.10-windows-x64-setup.exe](https://github.com/hannes-wan/bus-scope-official/releases/download/v0.1.10/bus-scope-0.1.10-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/bus-scope/download/).
 
